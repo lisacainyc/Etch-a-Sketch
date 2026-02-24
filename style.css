@@ -1,0 +1,17 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90vh;
+}
+
+.unit{
+    height: calc(90vh / 16);
+    width: calc(90vh/ 16);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    box-sizing: border-box;
+}
